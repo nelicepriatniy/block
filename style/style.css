@@ -16,7 +16,6 @@
 
 html,
 body {
-  height: 100vh;
   width: 100vw;
   overflow: hidden;
 }
@@ -272,9 +271,13 @@ li:last-child {
   }
   html,
   body {
-    height: 853rem;
+    height: 1266rem;
     width: 100vw;
     overflow: visible;
+  }
+  footer {
+    overflow: hidden;
+    height: 185rem;
   }
   main {
     height: auto;
@@ -398,5 +401,8 @@ li:last-child {
     line-height: 112.02%;
     margin-bottom: 10rem;
     text-align: center;
+  }
+  .container {
+    overflow: hidden;
   }
 }/*# sourceMappingURL=style.css.map */
